@@ -2,13 +2,13 @@ const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const properties = require("./routes/properties");
-const landlords = require("./routes/landlords");
-const tenants = require("./routes/tenants");
-const bankingEntries = require("./routes/bankingEntries");
-const llBalanceEntries = require("./routes/llBalanceEntries");
-const tenantBalanceEntries = require("./routes/tenantBalanceEntries");
-const invoices = require("./routes/invoices");
+const properties = require("./src/routes/properties");
+const landlords = require("./src/routes/landlords");
+const tenants = require("./src/routes/tenants");
+const bankingEntries = require("./src/routes/bankingEntries");
+const llBalanceEntries = require("./src/routes/llBalanceEntries");
+const tenantBalanceEntries = require("./src/routes/tenantBalanceEntries");
+const invoices = require("./src/routes/invoices");
 
 app.use(cors());
 
